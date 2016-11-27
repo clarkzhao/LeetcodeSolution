@@ -11,5 +11,9 @@ class Solution(object):
             if hash_map.has_key(residual):
                 return [hash_map[residual], i]
             hash_map[nums[i]] = i
-            
-Class Test(object):
+
+#Test
+nums = [3,4,5,2]
+target = 6
+s = Solution()
+print s.twoSum(nums, target)
