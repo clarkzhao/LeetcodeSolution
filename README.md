@@ -23,4 +23,5 @@ This solution is written in Python at first.
 
 ### Find All Numbers Disappeared in an Array
 * Take the advantage of using the value of one array as the index for an array.
-* Some solution marks the value by taking negative of them, and get the value by taking absolute of them, and it saves extra spaces than my solution.
+* [One solution](https://discuss.leetcode.com/topic/65738/java-accepted-simple-solution) marks the value by taking negative of them, and get the value by taking absolute of them, and it saves extra spaces than my solution.
+* [Another solution](https://discuss.leetcode.com/topic/66063/5-line-java-easy-understanding/2) tries to solve similar problem but using concept of remainder. 
