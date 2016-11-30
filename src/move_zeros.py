@@ -1,4 +1,4 @@
-#An brute solution
+#A brute solution
 class Solution(object):
     def moveZeroes(self, nums):
         """
@@ -13,7 +13,7 @@ class Solution(object):
                 index_of_zero += 1
         nums[::] = nums[index_of_zero:] + nums[:index_of_zero]
 
-#An more elegant solution
+#A more elegant solution
 class Solution2(object):
     def moveZeroes(self, nums):
         j = 0
